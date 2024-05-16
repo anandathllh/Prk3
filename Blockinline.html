@@ -1,0 +1,46 @@
+<!-- block element : <p></p>,<div></div>
+inline <span></span> -->
+<html>
+    <head>
+        <title>Block HTML</title>
+        <style>
+            section::after{
+                content: "";
+                display: table;
+                clear: both;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="head" style="background-color: bisque; color: brown; padding: 20px; text-align: center;">
+            <h3>Judul nya apa ya?</h3>
+            <p>Halo ini Aku Salma</p>
+        </div>
+        <section>
+        <div id="menu" style="background-color: brown; color: bisque; padding: 20px; width: 20%; height: 800px; float: left;">
+            <h3>MENU</h3>
+            <ul>
+                <li>
+                    Home
+                </li>
+                <li>
+                    About us
+                </li>
+                <li>
+                    Gallery
+                </li>
+                <li>
+                    Contact us
+                </li>
+            </ul>
+        </div>
+        <div id="konten"style="background-color: bisque; color: brown; padding: 20px; width: 74.5%; height: 800px; float: left;">
+            <h3>Indah Seperti Bintang</h3>
+            <p>Halo ini Aku Salma. Aku suka membaca, tapi bukan baca hati kamu.</p>
+        </div>
+        </section>
+        <div id="footer"style="background-color: brown; color: bisque; padding: 20px; width: 100%; height: 50px; text-align: center;">
+            <p>Footer</p>
+        </div>
+    </body>
+</html>
